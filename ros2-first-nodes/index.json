@@ -1,0 +1,17 @@
+{
+  "title": "ROS 2: Your First Nodes (talker & listener)",
+  "description": "Run two real ROS 2 nodes and watch them communicate over a topic — real Linux, in your browser, nothing to install.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      { "title": "Enter the ROS 2 environment", "text": "step1.md" },
+      { "title": "Make two nodes talk", "text": "step2.md" },
+      { "title": "Eavesdrop on the topic", "text": "step3.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
