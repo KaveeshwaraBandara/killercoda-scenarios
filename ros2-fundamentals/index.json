@@ -1,0 +1,19 @@
+{
+  "title": "ROS 2 Fundamentals: Nodes, Topics, Services, Parameters",
+  "description": "Inspect a live ROS 2 graph, write your own publisher and service server, and tune a running node — on a real Linux machine in your browser.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      { "title": "Inspect the graph", "text": "step1.md" },
+      { "title": "Topics: watch, measure, inject", "text": "step2.md" },
+      { "title": "Write your own publisher", "text": "step3.md" },
+      { "title": "Services: ask and answer", "text": "step4.md" },
+      { "title": "Parameters: tune it live", "text": "step5.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "ROS 2 Across Two Machines (sim-to-real preview)",
+  "description": "Run one ROS 2 graph across two machines, see ROS_DOMAIN_ID isolate them, and drive a robot's motor driver with the exact code you wrote for the simulator.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      { "title": "Two machines, one graph", "text": "step1.md" },
+      { "title": "ROS_DOMAIN_ID: the isolation switch", "text": "step2.md" },
+      { "title": "The robot side: a motor driver", "text": "step3.md" },
+      { "title": "The laptop side: your Stage 2 code, unchanged", "text": "step4.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}

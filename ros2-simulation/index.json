@@ -1,0 +1,18 @@
+{
+  "title": "ROS 2 Simulation: Build a Robot and Drive It",
+  "description": "Write a URDF robot, spawn it into a Gazebo physics world, bridge it to ROS 2, and drive it with your own code — all from the terminal, no GPU needed.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      { "title": "Describe a robot (URDF)", "text": "step1.md" },
+      { "title": "Give it physics and a motor", "text": "step2.md" },
+      { "title": "Spawn it and bridge it", "text": "step3.md" },
+      { "title": "Drive it with your own code", "text": "step4.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
